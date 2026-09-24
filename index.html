@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Online Center</title>
+    <meta name="description" content="Abhishek Online Center - digital government and online service support">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <span><i class="fa-solid fa-phone"></i> <strong>WhatsApp:</strong> +91 8585989137</span>
+            <span><i class="fa-solid fa-envelope"></i> abhishek17sep2006@gmail.com</span>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container nav-wrap">
+            <div class="logo">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Abhishek <b>Online Center</b></span>
+            </div>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#forms">All Forms</a>
+                <a href="#contact" class="btn-nav">Enquiry Now</a>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="lang-switch" aria-label="Language selector">
+                    <button class="lang-btn active" data-lang="en" type="button">EN</button>
+                    <button class="lang-btn" data-lang="hi" type="button">हिं</button>
+                </div>
+                <div class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-layout">
+                <div class="hero-copy">
+                    <span class="badge" data-i18n="badge">Your Digital Center</span>
+                    <h1 data-i18n="heroTitle">Abhishek Online Center</h1>
+                    <p data-i18n="heroText">All government and online services in one place. Fast, secure, and reliable digital support for every need.</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary" data-i18n="serviceBtn">Our Services</a>
+                        <a href="https://wa.me/918585989137?text=Hi%21%20Abhishek%20I%20need%20help." target="_blank" rel="noopener" class="btn btn-whatsapp" data-i18n="whatsappBtn">WhatsApp Help</a>
+                    </div>
+                </div>
+
+                <div class="hero-slider">
+                    <div class="slider-track">
+                        <div class="slide active">
+                            <div class="slide-card">
+                                <i class="fa-solid fa-building-shield"></i>
+                                <h3 data-i18n="slide1Title">Digital India Support</h3>
+                                <p data-i18n="slide1Text">Trusted guidance for government and digital service work.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-card">
+                                <i class="fa-solid fa-wallet"></i>
+                                <h3 data-i18n="slide2Title">Fast & Transparent</h3>
+                                <p data-i18n="slide2Text">Clear fees, quick processing, and reliable updates.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-card">
+                                <i class="fa-solid fa-headset"></i>
+                                <h3 data-i18n="slide3Title">Friendly Support</h3>
+                                <p data-i18n="slide3Text">Get help from your first enquiry to final completion.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container section-heading">
+                <p class="eyebrow" data-i18n="aboutEyebrow">Why choose us</p>
+                <h2 data-i18n="aboutTitle">Your digital service partner</h2>
+            </div>
+            <div class="container about-grid">
+                <div class="info-card">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3 data-i18n="feature1Title">Fast Service</h3>
+                    <p data-i18n="feature1Text">We help process applications quickly and keep every step simple and clear.</p>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3 data-i18n="feature2Title">Secure Process</h3>
+                    <p data-i18n="feature2Text">Your documents and personal details stay safe, private, and handled with care.</p>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-indian-rupee-sign"></i>
+                    <h3 data-i18n="feature3Title">Transparent Fees</h3>
+                    <p data-i18n="feature3Text">No hidden charges. Honest pricing and clear guidance for every service.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container section-heading">
+                <p class="eyebrow" data-i18n="servicesEyebrow">Main services</p>
+                <h2 data-i18n="servicesTitle">Everything you need in one place</h2>
+            </div>
+            <div class="container services-grid">
+                <article class="service-card">
+                    <div class="icon"><i class="fa-solid fa-id-card"></i></div>
+                    <h3 data-i18n="serviceAadhaarTitle">Aadhaar Services</h3>
+                    <p data-i18n="serviceAadhaarText">Aadhaar updates, corrections, biometric support, and document guidance.</p>
+                </article>
+                <article class="service-card">
+                    <div class="icon"><i class="fa-solid fa-credit-card"></i></div>
+                    <h3 data-i18n="servicePanTitle">PAN Card</h3>
+                    <p data-i18n="servicePanText">PAN applications, corrections, and new card support with quick processing.</p>
+                </article>
+                <article class="service-card">
+                    <div class="icon"><i class="fa-solid fa-landmark"></i></div>
+                    <h3 data-i18n="serviceBankTitle">Banking & AEPS</h3>
+                    <p data-i18n="serviceBankText">AEPS, money transfer, and safe banking support using Aadhaar-linked access.</p>
+                </article>
+                <article class="service-card">
+                    <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+                    <h3 data-i18n="serviceCertTitle">Certificates</h3>
+                    <p data-i18n="serviceCertText">Caste, domicile, income, and other official certificate help.</p>
+                </article>
+                <article class="service-card">
+                    <div class="icon"><i class="fa-solid fa-tractor"></i></div>
+                    <h3 data-i18n="serviceGovTitle">Government Schemes</h3>
+                    <p data-i18n="serviceGovText">PM Kisan, ration, e-Shramik, and other government support applications.</p>
+                </article>
+                <article class="service-card">
+                    <div class="icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3 data-i18n="serviceUtilityTitle">Utility Bills</h3>
+                    <p data-i18n="serviceUtilityText">Electricity, mobile, DTH, and gas bill payment support.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="forms" id="forms">
+            <div class="container section-heading">
+                <p class="eyebrow" data-i18n="formsEyebrow">All forms</p>
+                <h2 data-i18n="formsTitle">Choose the service you need</h2>
+            </div>
+
+            <div class="container forms-grid">
+                <a href="#contact" class="form-link" data-service="Aadhaar" data-i18n="formAadhaar">Aadhaar Services</a>
+                <a href="#contact" class="form-link" data-service="PAN Card" data-i18n="formPan">PAN Card</a>
+                <a href="#contact" class="form-link" data-service="Certificates" data-i18n="formCertificate">Certificates</a>
+                <a href="#contact" class="form-link" data-service="Banking" data-i18n="formBank">Banking & AEPS</a>
+                <a href="#contact" class="form-link" data-service="Government Scheme" data-i18n="formScheme">Government Schemes</a>
+                <a href="#contact" class="form-link" data-service="Other" data-i18n="formOther">Other Services</a>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container contact-box">
+                <div class="contact-copy">
+                    <p class="eyebrow" data-i18n="contactEyebrow">Quick enquiry</p>
+                    <h2 data-i18n="contactTitle">Let us help you today</h2>
+                    <p data-i18n="contactText">Fill in your details and we will contact you quickly through WhatsApp or call.</p>
+                    <div class="contact-details">
+                        <p><i class="fa-solid fa-phone"></i> +91 8585989137</p>
+                        <p><i class="fa-solid fa-envelope"></i> abhishek17sep2006@gmail.com</p>
+                    </div>
+                </div>
+
+                <form id="cscForm" class="enquiry-form">
+                    <div class="form-group">
+                        <label for="name" data-i18n="fieldName">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-i18n="fieldPhone">Mobile Number</label>
+                        <input type="tel" id="phone" placeholder="Enter your mobile number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service" data-i18n="fieldService">Select Service</label>
+                        <select id="service" required>
+                            <option value="" data-i18n="selectDefault">Select service</option>
+                            <option value="Aadhaar Services" data-i18n="selectAadhaar">Aadhaar Services</option>
+                            <option value="PAN Card" data-i18n="selectPan">PAN Card</option>
+                            <option value="Certificates" data-i18n="selectCertificate">Certificates</option>
+                            <option value="Banking & AEPS" data-i18n="selectBank">Banking & AEPS</option>
+                            <option value="Government Schemes" data-i18n="selectScheme">Government Schemes</option>
+                            <option value="Other" data-i18n="selectOther">Other</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-submit" data-i18n="submitBtn">Send Enquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© 2026 Abhishek Online Center</p>
+            <p data-i18n="footerText">Built for trusted digital support</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
